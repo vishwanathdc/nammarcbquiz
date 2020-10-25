@@ -1,0 +1,219 @@
+[
+      {
+        "question": "What is the full form of ESCN?",
+        "choice1": "Ella Sala Cup Namde",
+        "choice2": "Ee Sala Cap Namde",
+        "choice3": "Ee Sala Cup Namde",
+        "choice4": "Ee Sala Cup Namdalla",
+        "answer": 3
+    },
+    {
+        "question": "How many times RCB has reached the finals?",
+        "choice1": "1",
+        "choice2": "3",
+        "choice3": "4",
+        "choice4": "0",
+        "answer": 2
+    },
+    {
+        "question": "What’s the highest total scored by RCB?",
+        "choice1": "263/5",
+        "choice2": "271/7",
+        "choice3": "252/5",
+        "choice4": "263/3",
+        "answer": 1
+    },
+    {
+        "question": "What’s the highest margin win in runs scored by RCB?",
+        "choice1": "144 runs vs GL",
+        "choice2": "130 runs vs RR",
+        "choice3": "125 runs vs KKR",
+        "choice4": "71 runs vs KXIP",
+        "answer": 1
+    },
+    {
+        "question": "Who was RCB’s first captain?",
+        "choice1": "Virat Kohli",
+        "choice2": "Anil Kumble",
+        "choice3": "Daniel Vettori",
+        "choice4": "Rahul Dravid",
+        "answer": 4
+    },
+    {
+        "question": "First Century for RCB was scored by?",
+        "choice1": "Chris Gayle",
+        "choice2": "Manish Pandey",
+        "choice3": "Virat Kohli",
+        "choice4": "AB De Villiers",
+        "answer": 2
+    },
+    {
+        "question": "Total appearances by Kohli in IPL?",
+        "choice1": "165",
+        "choice2": "200",
+        "choice3": "187",
+        "choice4": "205",
+        "answer": 3
+    },
+    {
+        "question": "First hattrick was taken by?",
+        "choice1": "Samuel Badree",
+        "choice2": "Yuzvendra Chahal",
+        "choice3": "Praveen Kumar",
+        "choice4": "Dale Steyn",
+        "answer": 1
+    },
+    {
+        "question": "Lowest total scored by RCB?",
+        "choice1": "85",
+        "choice2": "49",
+        "choice3": "112",
+        "choice4": "103",
+        "answer": 2
+    },
+    {
+        "question": "How many hat tricks have RCB bowlers taken?",
+        "choice1": "5",
+        "choice2": "2",
+        "choice3": "0",
+        "choice4": "1",
+        "answer": 4
+    },
+    {
+        "question": "How many centuries have RCB batsmen scored?",
+        "choice1": "13",
+        "choice2": "14",
+        "choice3": "8",
+        "choice4": "10",
+        "answer": 1
+    },
+    {
+        "question": "How many centurions does RCB have?",
+        "choice1": "4",
+        "choice2": "8",
+        "choice3": "5",
+        "choice4": "6",
+        "answer": 1
+    },
+    {
+        "question": "How many Orange Cap holders does RCB have?",
+        "choice1": "4",
+        "choice2": "5",
+        "choice3": "2",
+        "choice4": "3",
+        "answer": 3
+    },
+    {
+        "question": "How many seasons have RCB batsmen won the Orange Cap?",
+        "choice1": "4",
+        "choice2": "5",
+        "choice3": "2",
+        "choice4": "3",
+        "answer": 4
+    },
+    {
+        "question": "Who is the only RCB player to have won the Man of the Match award in an IPL final?",
+        "choice1": "Virat Kohli",
+        "choice2": "Chris Gayle",
+        "choice3": "Anil Kumble",
+        "choice4": "Roelef van der Merwe",
+        "answer": 3
+    },
+    {
+        "question": "How many Purple Cap holders does RCB have?",
+        "choice1": "0",
+        "choice2": "1",
+        "choice3": "3",
+        "choice4": "4",
+        "answer": 1
+    },
+    {
+        "question": "Who has won the Emerging Player of the Year award for RCB?",
+        "choice1": "Virat Kohli",
+        "choice2": "Sarfaraz Khan",
+        "choice3": "Shreevats Goswami",
+        "choice4": "Manish Pandey",
+        "answer": 3
+    },
+    {
+        "question": "Against which IPL team does RCB have the highest win percentage (minimum 5 games)?",
+        "choice1": "Delhi Capitals",
+        "choice2": "Sunrisers Hyderabad",
+        "choice3": "Pune Warriors India",
+        "choice4": "Kochi Tuskers Kerala",
+        "answer":  3
+    },
+    {
+        "question": "How many players have captained RCB?",
+        "choice1": "6",
+        "choice2": "4",
+        "choice3": "8",
+        "choice4": "10",
+        "answer": 1
+    },
+    {
+        "question": "Which RCB captain has the best win percentage?",
+        "choice1": "Rahul Dravid",
+        "choice2": "Virat Kohli",
+        "choice3": "Daniel Vettori",
+        "choice4": "Anil Kumble",
+        "answer": 4
+    },
+    {
+        "question": "How many foreign players have captained RCB?",
+        "choice1": "3",
+        "choice2": "2",
+        "choice3": "1",
+        "choice4": "4",
+        "answer": 1
+    },
+    {
+        "question": "who is the highest wicket taker for RCB?",
+        "choice1": "Anil Kumble",
+        "choice2": "Yuzvendra Chahal",
+        "choice3": "Umesh Yadav",
+        "choice4": "Dale Steyn",
+        "answer": 2
+    },
+    {
+        "question": "who scored the most no 4’s in an innings for RCB",
+        "choice1": "Chris Gayle",
+        "choice2": "AB De Villiers",
+        "choice3": "Virat Kohli",
+        "choice4": "Manish Pandey",
+        "answer": 2
+    },
+    {
+        "question": "Which Bowler has the best economy for RCB",
+        "choice1": "Yuzvendra Chahal",
+        "choice2": "Pawan Negi",
+        "choice3": "Daniel Vettori",
+        "choice4": "Anil Kumble",
+        "answer": 3
+    },
+    {
+        "question": "Who has the most Ducks for RCB",
+        "choice1": "Chris Gayle",
+        "choice2": "AB De Villiers",
+        "choice3": "Virat Kohli",
+        "choice4": "Shane Watson",
+        "answer": 2
+    },
+    {
+        "question": "Which team did RCB not have its finals against",
+        "choice1": "Chennai Super Kings",
+        "choice2": "Mumbai Indians",
+        "choice3": "Deccan Chargers",
+        "choice4": "Sun Risers Hyderabad",
+        "answer": 2
+    },
+    {
+        "question": "How many times did M Chinnaswamy Stadium host the IPL finals",
+        "choice1": "1",
+        "choice2": "3",
+        "choice3": "0",
+        "choice4": "2",
+        "answer": 4
+    }
+
+  ]

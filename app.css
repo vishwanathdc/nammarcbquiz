@@ -1,0 +1,227 @@
+:root {
+    /* background-color: #ecf5ff; */
+    background-color: #000;
+    font-size: 62.5%;
+  }
+
+  * {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-bottom: 1rem;
+  }
+  
+  h1 {
+    font-size: 5.4rem;
+    color: #fff;
+    margin-bottom: 5rem;
+  }
+  
+  h1 > span {
+    font-size: 2.4rem;
+    font-weight: 500;
+  }
+
+  .finalScore {
+    color: #A28050;
+  }
+  
+  h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3rem;
+    margin-bottom: 4rem;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+  }
+
+  .animated-text {
+    background-image: -webkit-linear-gradient(#E5C28A 50%, #000 50%);
+    background-size: 100% 50px;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-animation: stripes 3s linear infinite;
+    animation: stripes 3s linear infinite;
+    
+  }
+  
+  @-webkit-keyframes stripes {
+    100% {
+      background-position: 0 -50px;
+    }
+  }
+  
+  @keyframes stripes {
+    100% {
+      background-position: 0 -50px;
+    }
+  }
+  
+  h3 {
+    font-size: 2.8rem;
+    font-weight: 500;
+  }
+
+  h4 {
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 250;
+  }
+  
+  /* UTILITIES */
+  
+  .container {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(images/rcb-logo-temp.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    height: 100vh;
+    width: 100vw;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  .container > * {
+    width: 100%;
+  }
+  
+  .flex-column {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .flex-center {
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .justify-center {
+    justify-content: center;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  /* BUTTONS */
+  .btn {
+    font-size: 2rem;
+    padding: 1rem 0;
+    width: 20rem;
+    text-align: center;
+    border: 0.2rem solid#A28050;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: #000;
+    background-color: #E2C488;
+  }
+  
+  .btn:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 #E2C488;
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+  }
+  
+  .btn[disabled]:hover {
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+  }
+  
+  /* FORMS */
+  form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  input {
+    margin-bottom: 1rem;
+    width: 20rem;
+    padding: 1.5rem;
+    font-size: 1.8rem;
+    border: none;
+    box-shadow: 0 0.1rem 1.4rem 0 #A28050;
+  }
+  
+  input::placeholder {
+    color: #aaa;
+  }
+  
+  @import url(https://fonts.googleapis.com/css?family=Exo+2:200i);
+
+  :root {
+    /* Base font size */
+    font-size: 10px;   
+    
+    /* Set neon color */
+    --neon-text-color: #f40;
+    --neon-border-color: #08f;
+  }
+  
+  body {
+    font-family: 'Exo 2', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    background: #000;
+    min-height: 100vh;
+  }
+  
+/*ANIMATE*/
+
+  h5 {
+    font-size: 2.5rem;
+    font-weight: 200;
+    padding: 0rem 6rem 5.5rem;
+    animation: flicker 2s infinite alternate;     
+  }
+  
+  h5:focus {
+    outline: none;
+  }
+  
+  /* Animate neon flicker */
+  @keyframes flicker {
+      
+      0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+        
+          text-shadow:
+              -0.2rem -0.2rem 1rem #A28050,
+              0.2rem 0.2rem 1rem #A28050,
+              0 0 2rem var(--neon-text-color),
+              0 0 4rem var(--neon-text-color),
+              0 0 6rem var(--neon-text-color),
+              0 0 8rem var(--neon-text-color),
+              0 0 10rem var(--neon-text-color);
+          
+    
+      }
+      
+      20%, 24%, 55% {        
+          text-shadow: none;
+          box-shadow: none;
+      }    
+  }
